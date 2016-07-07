@@ -1,15 +1,25 @@
 .home-screen {
     background-image: url("../images/Homepage.png");
     position: relative;
-    height: 500px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: -2;
 }
-.black-screen {
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+.home-screen::before {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
     position: absolute;
     height: 100%;
     width: 100%;
+    content: "";
+    display: block;
+    top: 0;
+}
+.home-text {
+    color: #fff;
+    font-size: 120px;
+    text-align: center;
+    padding-top: 250px;
 }
