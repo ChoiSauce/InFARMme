@@ -1,4 +1,15 @@
 .home-screen {
-    background-image: url("images/Homepage.png");
-    background-color: #000000;
+    background-image: url("../images/Homepage.png");
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.black-screen {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
