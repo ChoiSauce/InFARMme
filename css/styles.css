@@ -1,5 +1,5 @@
 .navbar-custom {
-    font-family: Binlight;
+    font-family: Brandon;
 }
 .navbar-custom a {
     color: #fff;
@@ -16,7 +16,7 @@
     border: 1px solid #ff3300;
 }
 .home-screen {
-    background-image: url("../images/Homepage.png");
+    background-image: url("../images/Market.png");
     position: relative;
     height: 600px;
     background-size: cover;
