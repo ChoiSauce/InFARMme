@@ -1,3 +1,14 @@
+.navbar-custom {
+    font-family: Binlight;
+}
+.navbar-custom a {
+    color: #ff3300;
+    font-size: 30px;
+}
+.navbar-custom .navbar-toggle,
+.navbar-custom .icon-bar {
+    border: 1px solid #ff3300;
+}
 .home-screen {
     background-image: url("../images/Homepage.png");
     position: relative;
@@ -19,19 +30,33 @@
 }
 .home-text {
     color: #fff;
-    font-size: 120px;
+    font-size: 150px;
     text-align: center;
-    padding-top: 210px;
-    font-family: BigJohn;
+    padding-top: 190px;
+    font-family: Brandon;
+    margin-bottom: -20px;
 }
 .slogan {
     color: #fff;
     font-size: 50px;
     text-align: center;
-    font-family: BigJohn;
-    margin-bottom: -40px;
+    font-family: Brandon;
+    font-weight: bold;
+
 }
 @font-face {
     font-family: BigJohn;
     src: url(../fonts/BigJohn.ttf);
+}
+@font-face {
+    font-family: Bellaboo;
+    src: url(../fonts/Bellaboo.ttf);
+}
+@font-face {
+    font-family: Dinlight;
+    src: url(../fonts/Dinlight.ttf);
+}
+@font-face {
+    font-family: Brandon;
+    src: url(../fonts/Brandon.ttf);
 }
