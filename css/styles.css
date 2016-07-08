@@ -29,10 +29,14 @@
 .button {
     background-color: transparent;
     border: 1px solid #FC6500;
+    font-size: 17px;
 }
-.navbar-custom .nav li button:hover {
+.navbar-custom .nav li button:active,
+.navbar-custom .nav li button:hover,
+.navbar-custom .nav li button:focus {
     background-color: #FC6500;
     border: 1px solid #FC6500;
+    outline-color: #FC6500;
 }
 .home-screen {
     background-image: url("../images/Market.jpg");
@@ -66,7 +70,7 @@
 }
 .theater {
     display: table;
-    height: 100%;
+    height: 508px;
     width: 100%;
     text-align: center;
     position: relative;
