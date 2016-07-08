@@ -5,9 +5,12 @@
     color: #fff;
     font-size: 20px;
 }
-.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active, .navbar-custom .nav li a:hover {
+.navbar-custom .nav li a:active,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:hover {
     background-color: transparent;
 }
+
 .navbar-custom a:hover {
     color: #fc6500;
 }
