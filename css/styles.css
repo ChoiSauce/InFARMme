@@ -46,7 +46,7 @@
     background-position: center;
 }
 .tint {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: 0;
     position: absolute;
     height: 100%;
@@ -69,7 +69,7 @@
 }
 .theater {
     display: table;
-    height: 508px;
+    height: 453px;
     width: 100%;
     text-align: center;
     position: relative;
@@ -77,6 +77,14 @@
 .stage {
     vertical-align: middle;
     display: table-cell;
+}
+.background-blue {
+    background-color: #80CFFA;
+}
+.contact {
+    font-size: 70px;
+    font-family: Brandon;
+    padding: 70px;
 }
 @font-face {
     font-family: BigJohn;
