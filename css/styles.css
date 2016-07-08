@@ -26,10 +26,13 @@
     padding-top: 21px;
     padding-bottom: 21px;
 }
+.navbar-custom .nav li.button a:hover {
+    color: #fc6500;
+}
 .home-screen {
     background-image: url("../images/Market.jpg");
     position: relative;
-    height: 600px;
+    height: 670px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -54,7 +57,7 @@
     font-size: 50px;
     text-align: center;
     font-family: Brandon;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 .theater {
     display: table;
