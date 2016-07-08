@@ -2,8 +2,14 @@
     font-family: Binlight;
 }
 .navbar-custom a {
-    color: #ff3300;
+    color: #fff;
     font-size: 20px;
+}
+.navbar-custom li:hover {
+    background-color: none;
+}
+.navbar-custom a:hover {
+    color: #fc6500;
 }
 .navbar-custom .navbar-toggle,
 .navbar-custom .icon-bar {
@@ -16,23 +22,19 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: -2;
 }
-.home-screen::before {
+.tint {
     background-color: rgba(0, 0, 0, 0.6);
-    z-index: -1;
+    z-index: 0;
     position: absolute;
     height: 100%;
     width: 100%;
-    content: "";
-    display: block;
     top: 0;
 }
 .home-text {
     color: #fff;
     font-size: 150px;
     text-align: center;
-    padding-top: 190px;
     font-family: Brandon;
     margin-bottom: -20px;
 }
@@ -42,7 +44,17 @@
     text-align: center;
     font-family: Brandon;
     font-weight: bold;
-
+}
+.theater {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.stage {
+    vertical-align: middle;
+    display: table-cell;
 }
 @font-face {
     font-family: BigJohn;
