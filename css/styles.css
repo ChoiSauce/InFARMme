@@ -5,8 +5,8 @@
     color: #fff;
     font-size: 20px;
 }
-.navbar-custom li:hover {
-    background-color: none;
+.navbar-custom .nav li a:hover {
+    background-color: transparent;
 }
 .navbar-custom a:hover {
     color: #fc6500;
