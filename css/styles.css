@@ -12,19 +12,27 @@
 }
 
 .navbar-custom a:hover {
-    color: #fc6500;
+    color: #FC6500;
 }
 .navbar-custom .navbar-toggle,
 .navbar-custom .icon-bar {
-    border: 1px solid #ff3300;
+    border: 1px solid #FC6500;
 }
 .navbar-custom .nav li a {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.navbar-custom .nav li.button a {
+.navbar-custom .nav li.button-align a {
     padding-top: 21px;
     padding-bottom: 21px;
+}
+.button {
+    background-color: transparent;
+    border: 1px solid #FC6500;
+}
+.navbar-custom .nav li button:hover {
+    background-color: #FC6500;
+    border: 1px solid #FC6500;
 }
 .home-screen {
     background-image: url("../images/Market.jpg");
