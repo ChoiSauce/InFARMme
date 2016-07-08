@@ -18,6 +18,14 @@
 .navbar-custom .icon-bar {
     border: 1px solid #ff3300;
 }
+.navbar-custom .nav li a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar-custom .nav li.button a {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
 .home-screen {
     background-image: url("../images/Market.jpg");
     position: relative;
