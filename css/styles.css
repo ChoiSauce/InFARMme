@@ -3,14 +3,13 @@
 }
 .navbar-custom a {
     color: #fff;
-    font-size: 17px;
+    font-size: 16px;
 }
 .navbar-custom .nav li a:active,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:hover {
     background-color: transparent;
 }
-
 .navbar-custom a:hover {
     color: #FC6500;
 }
