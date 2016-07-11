@@ -151,3 +151,14 @@
     font-family: Brandon;
     src: url(../fonts/Brandon.ttf);
 }
+@media only screen and (max-width:767px){
+    #mobile-menu {
+        background-color: #C2C4C4;
+    }
+    .navbar-custom a{
+        color: #232424;
+    }
+    .navbar-custom a button{
+        color: #232424;
+    }
+}
