@@ -111,6 +111,11 @@
     font-family: Brandon;
     color: #FC6500;
 }
+.signup {
+    font-size: 20px;
+    font-family: Brandon;
+    color: #FC6500;
+}
 .custom {
     background-color: transparent;
     border: 1px solid #FC6500;
@@ -128,7 +133,7 @@
   opacity: 0; transition:opacity .2s;
 }
 .modal-backdrop.in{
-  opacity: 0.7;
+  opacity: 0.75;
 }
 @font-face {
     font-family: BigJohn;
