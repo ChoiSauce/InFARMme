@@ -70,6 +70,10 @@
     font-family: Brandon;
     /*font-weight: bold;*/
 }
+/*.shop {
+    font-family: Brandon;
+    text-align: center;
+}*/
 .theater {
     display: table;
     height: 453px;
@@ -96,15 +100,37 @@
 }
 .comments {
     width: 274px;
->>>>>>> Stashed changes
 }
 .info {
     font-size: 20px;
     font-family: Brandon;
     padding-top: 5px;
     padding-bottom:25px;
-    color: #fff;
-
+    color: #000;
+}
+.login {
+    font-size: 20px;
+    font-family: Brandon;
+    color: #FC6500;
+}
+.custom {
+    background-color: transparent;
+    border: 1px solid #FC6500;
+    font-size: 17px;
+    color: #000;
+}
+/*.modal:active,
+.modal:hover,
+.modal:focus {
+    background-color: #FC6500;
+    border: 1px solid #FC6500;
+    outline-color: #FC6500;*/
+}
+.modal-backdrop{
+  opacity: 0; transition:opacity .2s;
+}
+.modal-backdrop.in{
+  opacity: 0.7;
 }
 @font-face {
     font-family: BigJohn;

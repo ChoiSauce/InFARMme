@@ -3,12 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>InFARMme</title>
+        <title>InfarmMe</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
@@ -18,7 +17,6 @@
             <div class="tint"></div>
             <nav class="navbar navbar-custom">
               <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -27,7 +25,6 @@
                     <span class="icon-bar"></span>
                   </button>
                 </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#Home">HOME</a></li>
@@ -35,11 +32,11 @@
                     <li><a href="#Vendors">VENDORS</a></li>
                     <li><a href="#About Us">ABOUT US</a></li>
                     <li><a href="#Contact Us">CONTACT US</a></li>
-                    <li><a href="#Login">LOGIN</a></li>
-                    <li class="button-align"><a href="#SignUp"><button class="btn btn-primary button">SIGN UP</button></a></li>
+                    <li><a href="#Login" data-toggle="modal" data-target="#Login">LOGIN</a></li>
+                    <li class="button-align"><a href="#SignUp" data-toggle="modal" data-target="#SignUp"><button class="btn btn-primary button">SIGN UP</button></a></li>
                  </ul>
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
+                </div>
+              </div>
             </nav>
             <div class="theater">
                 <div class="stage">
@@ -47,20 +44,40 @@
                     <p class="slogan"> informing you about your local farmers market </p>
                 </div>
             </div>
+            <!-- <button type="reserve" class="btn btn-default shop">Reserve Now</button> -->
         </div>
+    <!-- Modal -->
+    <div id="Login" class="modal fade" role="dialog">
+      <div class="modal-backdrop fade in">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- <h4 class="modal-title">Login</h4> -->
+            </div>
+             <div class="modal-body">
+                <br><input type="text" placeholder="Username/Email" name="username" class="login"><br>
+                <br><input type="text" placeholder="Password" name="password" class="login"><br>
+             </div>
+             <div class="modal-footer">
+                <button type="button" class="btn btn-primary custom" data-dismiss="modal">LOGIN</button>
+             </div>
+        </div>
+        </div>
+      </div>
+    </div>
         <div class="background-blue">
             <div class="container">
                 <div class="Contact-Us">
                     <p class="contact">CONTACT US</p>
                     <form role="form">
                         <div class="form-group">
-                            <br><input type="text" placeholder="NAME" name="name" class="comments"><br>
-                            <br><input type="text" placeholder="PHONE" name="phone" class="comments"><br>
-                            <br><input type="email" placeholder="EMAIL" name="email" class="comments"><br>
-                            <br><textarea type="text" placeholder="COMMENTS" name="comments" class="comments"></textarea><br>
+                            <br><input type="text" placeholder="Name" name="name" class="comments"><br>
+                            <br><input type="text" placeholder="Phone" name="phone" class="comments"><br>
+                            <br><input type="email" placeholder="Email" name="email" class="comments"><br>
+                            <br><textarea type="text" placeholder="Comments" name="comments" class="comments"></textarea><br>
                         </div>
-                        <button type="submit" class="btn btn-default contact-submit" >SUBMIT</button>
-                    </form>
+                        <button type="submit" class="btn btn-default contact-submit">SUBMIT</button>
                 </div>
             </div>
         </div>
