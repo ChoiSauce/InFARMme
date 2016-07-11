@@ -30,6 +30,9 @@
     border: 1px solid #FC6500;
     font-size: 17px;
 }
+.contact-submit {
+    font-family: Brandon;
+}
 .navbar-custom .nav li button:active,
 .navbar-custom .nav li button:hover,
 .navbar-custom .nav li button:focus {
@@ -80,12 +83,20 @@
 }
 .background-blue {
     background-color: #80CFFA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.background-grey {
+    background-color: #262626;
 }
 .contact {
-    font-size: 60px;
+    font-size: 55px;
     font-family: Brandon;
-    padding-top: 70px;
     font-weight: bold;
+}
+.comments {
+    width: 274px;
+>>>>>>> Stashed changes
 }
 .info {
     font-size: 20px;
