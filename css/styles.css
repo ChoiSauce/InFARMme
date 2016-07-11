@@ -29,13 +29,25 @@
     background-color: transparent;
     border: 1px solid #FC6500;
     font-size: 17px;
+    font-family: Brandon;
+}
+.button1 {
+    background-color: #FC6500;
+    border-color: #FC6500;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: Brandon;
+}
+.button1:hover {
+    background-color: #e65c00;
+    /*outline-color:  #e65c00;*/
 }
 .contact-submit {
     font-family: Brandon;
 }
-.navbar-custom .nav li button:active,
-.navbar-custom .nav li button:hover,
-.navbar-custom .nav li button:focus {
+.button:active,
+.button:hover,
+.button:focus {
     background-color: #FC6500;
     border: 1px solid #FC6500;
     outline-color: #FC6500;
@@ -70,10 +82,12 @@
     font-family: Brandon;
     /*font-weight: bold;*/
 }
-/*.shop {
+.shop {
     font-family: Brandon;
-    text-align: center;
-}*/
+    font-size: 20px;
+    color: #fc6500;
+    ;
+}
 .theater {
     display: table;
     height: 453px;
@@ -100,7 +114,7 @@
     font-family: Brandon;
 }
 .info {
-    font-size: 20px;
+    font-size: 30px;
     font-family: Brandon;
     padding-top: 5px;
     padding-bottom:25px;
@@ -116,12 +130,16 @@
     font-family: Brandon;
     color: #FC6500;
 }
-.custom {
+.button-on-white {
+    color: #000;
+
+}
+/*.custom {
     background-color: transparent;
     border: 1px solid #FC6500;
     font-size: 17px;
     color: #000;
-}
+}*/
 /*.modal:active,
 .modal:hover,
 .modal:focus {
