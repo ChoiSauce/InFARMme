@@ -111,6 +111,25 @@
     font-family: Brandon;
     color: #FC6500;
 }
+.follow-us {
+    text-align: center;
+}
+.follow-header {
+    font-size: 55px;
+    font-family: Brandon;
+    font-weight: bold;
+}
+.social-network {
+    height: 70px;
+    width: 70px;
+    vertical-align: middle;
+}
+.links {
+    margin-top: 90px;
+}
+.social {
+    text-align: center;
+}
 .custom {
     background-color: transparent;
     border: 1px solid #FC6500;
@@ -155,5 +174,15 @@
     }
     .navbar-custom a button{
         color: #232424;
+    }
+    .contact {
+        text-align: center;
+    }
+    .form-group {
+        text-align: center;
+    }
+    .toasty {
+        text-align: center;
+        padding-bottom: 25px;
     }
 }
