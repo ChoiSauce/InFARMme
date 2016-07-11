@@ -82,9 +82,10 @@
     background-color: #80CFFA;
 }
 .contact {
-    font-size: 70px;
+    font-size: 60px;
     font-family: Brandon;
     padding-top: 70px;
+    font-weight: bold;
 }
 .info {
     font-size: 25px;
