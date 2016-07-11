@@ -90,9 +90,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.background-grey {
-    background-color: #262626;
-}
 .contact {
     font-size: 55px;
     font-family: Brandon;
@@ -100,6 +97,7 @@
 }
 .comments {
     width: 274px;
+    font-family: Brandon;
 }
 .info {
     font-size: 20px;
