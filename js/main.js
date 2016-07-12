@@ -18,3 +18,13 @@ $(document).ready(function(){
         }
     });
 });
+
+var $logo = $('#mobile-menu');
+$(document).scroll(function() {
+    if ($(this).scrollTop() > 10) {
+        $logo.addClass('navbar-width-color');
+    } else {
+        $logo.removeClass('navbar-width-color');
+    }
+    // $logo.css({display: $(this).scrollTop()>10 ? "block":"none"});
+});

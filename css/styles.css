@@ -11,29 +11,29 @@
     background-color: transparent;
 }
 .navbar-custom a:hover {
-    color: #ff5400;
+    color: #FF5400;
 }
 .navbar-custom .navbar-toggle,
 .navbar-custom .icon-bar {
-    border: 1px solid #ff5400;
+    border: 1px solid #FF5400;
 }
 .navbar-custom .nav li a {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .navbar-custom .nav li.button-align a {
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 12px;
+    padding-bottom: 8px;
 }
 .button {
     background-color: transparent;
-    border: 1px solid #ff5400;
+    border: 1px solid #FF5400;
     font-size: 17px;
     font-family: Brandon;
 }
 .button1 {
-    background-color: #ff5400;
-    border-color: #ff5400;
+    background-color: #FF5400;
+    border-color: #FF5400;
     font-size: 30px;
     margin-top: 30px;
     font-family: Brandon;
@@ -53,9 +53,9 @@
 .button:hover,
 .button:active,
 .button:focus {
-    background-color: #ff5400;
-    border: 1px solid #ff5400;
-    outline-color: #ff5400;
+    background-color: #FF5400;
+    border: 1px solid #FF5400;
+    outline-color: #FF5400;
 }
 .home-screen {
     background-image: url("../images/Market.jpg");
@@ -113,6 +113,9 @@
     font-family: Brandon;
     font-weight: bold;
 }
+.header-center {
+    text-align: center;
+}
 .comments {
     width: 274px;
     font-family: Brandon;
@@ -128,16 +131,19 @@
 .login {
     font-size: 20px;
     font-family: Brandon;
-    color: #ff5400;
+    color: #FF5400;
 }
 .signup {
     font-size: 20px;
     font-family: Brandon;
-    color: #ff5400;
+    color: #FF5400;
 }
 .button-on-white {
     color: #000;
 
+}
+.navbar-width-color {
+    background-color: #3d3d3d;
 }
 .custom,
 .follow-us {
@@ -149,35 +155,39 @@
     font-weight: bold;
 }
 .social-network {
-    height: 70px;
-    width: 70px;
-    vertical-align: middle;
+    height: 20px;
+    width: 20px;
 }
-.links {
-    margin-top: 90px;
+.links .social a img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer {
+    background-color: #fff;
+    padding: 15px;
 }
 .social {
     text-align: center;
 }
 .custom {
     background-color: transparent;
-    border: 1px solid #ff5400;
+    border: 1px solid #FF5400;
     font-size: 17px;
     color: #000;
 }
 .button:active,
 .button:hover,
 .button:focus {
-    background-color: #ff5400;
-    border: 1px solid #ff5400;
-    outline-color: #ff5400;
+    background-color: #FF5400;
+    border: 1px solid #FF5400;
+    outline-color: #FF5400;
 }
 .button:active,
 .button:hover,
 .button:focus {
-    background-color: #ff5400;
-    border: 1px solid #ff5400;
-    outline-color: #ff5400;
+    background-color: #FF5400;
+    border: 1px solid #FF5400;
+    outline-color: #FF5400;
 }
 .modal-backdrop{
   opacity: 0; transition:opacity .2s;
@@ -231,14 +241,11 @@
     src: url(../fonts/Brandon.ttf);
 }
 @media only screen and (max-width:767px){
-    #mobile-menu {
-        background-color: #C2C4C4;
-    }
     .navbar-custom a{
-        color: #232424;
+        color: #fff;
     }
     .navbar-custom a button{
-        color: #232424;
+        color: #fff;
     }
     .contact {
         text-align: center;
