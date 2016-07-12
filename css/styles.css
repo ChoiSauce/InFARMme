@@ -188,19 +188,31 @@
 .locationspage {
     background-image: url("../images/Locations.png");
     position: relative;
-    height: 600px;
+    height: 680px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: cover;
 }
 .locations-title {
     color: #fff;
     font-size: 150px;
     text-align: center;
     font-family: Brandon;
-    margin-bottom: 400px;
-    margin-top: 150px;
+    margin-top: -100px;
     /*font-weight: bold;*/
+}
+.background-grey {
+    background-color: #0e0e0e;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: cover;
+    height: 100%;
+    width: 100%;
+}
+.locationbags {
+    height: 115px;
+    width: 115px;
 }
 @font-face {
     font-family: BigJohn;
