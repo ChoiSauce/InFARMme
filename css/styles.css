@@ -162,9 +162,16 @@
     font-size: 17px;
     color: #000;
 }
-.modal:active,
-.modal:hover,
-.modal:focus {
+.button:active,
+.button:hover,
+.button:focus {
+    background-color: #FC6500;
+    border: 1px solid #FC6500;
+    outline-color: #FC6500;
+}
+.button:active,
+.button:hover,
+.button:focus {
     background-color: #FC6500;
     border: 1px solid #FC6500;
     outline-color: #FC6500;
