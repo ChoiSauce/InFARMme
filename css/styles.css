@@ -11,11 +11,11 @@
     background-color: transparent;
 }
 .navbar-custom a:hover {
-    color: #FC6500;
+    color: #ff5400;
 }
 .navbar-custom .navbar-toggle,
 .navbar-custom .icon-bar {
-    border: 1px solid #FC6500;
+    border: 1px solid #ff5400;
 }
 .navbar-custom .nav li a {
     padding-top: 30px;
@@ -27,13 +27,13 @@
 }
 .button {
     background-color: transparent;
-    border: 1px solid #FC6500;
+    border: 1px solid #ff5400;
     font-size: 17px;
     font-family: Brandon;
 }
 .button1 {
-    background-color: #FC6500;
-    border-color: #FC6500;
+    background-color: #ff5400;
+    border-color: #ff5400;
     font-size: 30px;
     margin-top: 30px;
     font-family: Brandon;
@@ -46,15 +46,16 @@
     outline-color:  #e65c00;
     border: 1px solid #e65c00;
 }
+
 .contact-submit {
     font-family: Brandon;
 }
 .button:hover,
 .button:active,
 .button:focus {
-    background-color: #FC6500;
-    border: 1px solid #FC6500;
-    outline-color: #FC6500;
+    background-color: #ff5400;
+    border: 1px solid #ff5400;
+    outline-color: #ff5400;
 }
 .home-screen {
     background-image: url("../images/Market.jpg");
@@ -65,7 +66,7 @@
     background-position: center;
 }
 .tint {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 0;
     position: absolute;
     height: 100%;
@@ -78,7 +79,6 @@
     text-align: center;
     font-family: Brandon;
     margin-bottom: -20px;
-    margin-top: 150px;
 }
 .slogan {
     color: #fff;
@@ -90,12 +90,11 @@
 .shop {
     font-family: Brandon;
     font-size: 20px;
-    color: #FC6500;
-    ;
+    color: #ff5400;
 }
 .theater {
     display: table;
-    height: 453px;
+    height: 100%;
     width: 100%;
     text-align: center;
     position: relative;
@@ -129,12 +128,12 @@
 .login {
     font-size: 20px;
     font-family: Brandon;
-    color: #FC6500;
+    color: #ff5400;
 }
 .signup {
     font-size: 20px;
     font-family: Brandon;
-    color: #FC6500;
+    color: #ff5400;
 }
 .button-on-white {
     color: #000;
@@ -162,29 +161,46 @@
 }
 .custom {
     background-color: transparent;
-    border: 1px solid #FC6500;
+    border: 1px solid #ff5400;
     font-size: 17px;
     color: #000;
 }
 .button:active,
 .button:hover,
 .button:focus {
-    background-color: #FC6500;
-    border: 1px solid #FC6500;
-    outline-color: #FC6500;
+    background-color: #ff5400;
+    border: 1px solid #ff5400;
+    outline-color: #ff5400;
 }
 .button:active,
 .button:hover,
 .button:focus {
-    background-color: #FC6500;
-    border: 1px solid #FC6500;
-    outline-color: #FC6500;
+    background-color: #ff5400;
+    border: 1px solid #ff5400;
+    outline-color: #ff5400;
 }
 .modal-backdrop{
   opacity: 0; transition:opacity .2s;
 }
 .modal-backdrop.in{
   opacity: 0.75;
+}
+.locationspage {
+    background-image: url("../images/Locations.png");
+    position: relative;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.locations-title {
+    color: #fff;
+    font-size: 150px;
+    text-align: center;
+    font-family: Brandon;
+    margin-bottom: 400px;
+    margin-top: 150px;
+    /*font-weight: bold;*/
 }
 @font-face {
     font-family: BigJohn;
