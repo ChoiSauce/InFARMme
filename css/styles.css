@@ -38,9 +38,12 @@
     margin-top: 30px;
     font-family: Brandon;
 }
+.button1:active,
+.button1:focus,
 .button1:hover {
     background-color: #e65c00;
-    /*outline-color:  #e65c00;*/
+    outline-color:  #e65c00;
+    border: 1px solid #e65c00;
 }
 .contact-submit {
     font-family: Brandon;
