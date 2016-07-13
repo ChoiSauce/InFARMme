@@ -220,9 +220,36 @@
     height: 100%;
     width: 100%;
 }
+.h1 {
+    font-size: 60px;
+    color: #fff;
+    margin-top: 1px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: Brandon;
+}
 .locationbags {
     height: 115px;
     width: 115px;
+}
+.marketday {
+    font-family: Brandon;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.markettime {
+    font-family: Brandon;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 1px;
+}
+.marketlocation {
+    font-family: Brandon;
+    font-size: 30px;
+    color: #fff;
+    /*padding-top: 1px;*/
 }
 @font-face {
     font-family: BigJohn;
