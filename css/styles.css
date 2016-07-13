@@ -72,6 +72,10 @@
     height: 100%;
     width: 100%;
     top: 0;
+    data-dismiss: modal;
+}
+.modal-close {
+    text-align: right;
 }
 .home-text {
     color: #fff;
@@ -217,7 +221,6 @@
     padding-top: 120px;
     padding-bottom: 120px;
     display: cover;
-    height: 100%;
     width: 100%;
 }
 .h1 {
@@ -295,5 +298,8 @@
     }
     .mobile-overlay {
         background-color: #3d3d3d;
+    }
+    .h1 {
+        font-size: 50px;
     }
 }
