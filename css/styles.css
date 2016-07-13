@@ -1,4 +1,4 @@
-.navbar-custom {
+    .navbar-custom {
     font-family: Brandon;
 }
 .navbar-custom a {
@@ -256,5 +256,11 @@
     .toasty {
         text-align: center;
         padding-bottom: 25px;
+    }
+    .home-text {
+        font-size: 80px;
+    }
+    .slogan {
+        font-size: 40px;
     }
 }
