@@ -293,4 +293,7 @@
     .locations-title {
         font-size: 80px;
     }
+    .mobile-overlay {
+        background-color: #3d3d3d;
+    }
 }
