@@ -210,7 +210,7 @@
     font-size: 150px;
     text-align: center;
     font-family: Brandon;
-    margin-top: -100px;
+    margin-top: -80px;
     /*font-weight: bold;*/
 }
 .background-grey {
@@ -225,7 +225,7 @@
     font-size: 60px;
     color: #fff;
     margin-top: 1px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     text-align: center;
     font-family: Brandon;
 }
@@ -237,7 +237,7 @@
     font-family: Brandon;
     font-size: 30px;
     color: #fff;
-    padding-top: 10px;
+    padding-top: 15px;
     font-weight: bold;
 }
 .markettime {
@@ -259,6 +259,34 @@
     margin-left: 380px;
     margin-right: 380px;
     padding-bottom: 18px;
+}
+.modal-title {
+    font-family: Brandon;
+    font-size: 30px;
+}
+.vendorspage {
+    background-image: url("../images/Locations.png");
+    position: relative;
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: cover;
+}
+.vendors-title {
+    color: #fff;
+    font-size: 150px;
+    text-align: center;
+    font-family: Brandon;
+    margin-top: 100px;
+    /*font-weight: bold;*/
+}
+.button2:active,
+.button2:hover,
+.button2:focus {
+    background-color: #FF5400;
+    border: 1px solid #FF5400;
+    outline-color: #FF5400;
 }
 @font-face {
     font-family: BigJohn;
