@@ -37,6 +37,18 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">HOME</a></li>
+                        <li><a href="locations.html">MARKET INFO</a></li>
+                        <li><a href="#Recipes">RECIPES</a></li>
+                        <li><a href="#About Us">ABOUT US</a></li>
+                        <li><a href="#Contact Us">CONTACT US</a></li>
+                        <li><a href="#Login" data-toggle="modal" data-target="#Login">LOGIN</a></li>
+                        <li class="button-align"><a href="#SignUp" data-toggle="modal" data-target="#SignUp"><button class="btn btn-primary button">SIGN UP</button></a></li>
+                     </ul>
+                    </div>
+                  </div>
                 </nav>
                 <div id="Login" class="modal fade" role="dialog">
                     <div class="modal-backdrop fade in">
@@ -75,46 +87,59 @@
                                 </div>
                             </div>
                         </div>
+                         <div class="modal-body">
+                            <br><input type="text" placeholder="Username" name="username" class="signup"><br>
+                            <br><input type="text" placeholder="Email" name="email" class="signup"><br>
+                            <br><input type="password" placeholder="Password" name="password" class="signup"><br>
+                         </div>
+                         <div class="modal-footer">
+                            <button type="button" class="btn btn-primary button button-on-white" data-dismiss="modal">SIGN UP</button>
+                         </div>
                     </div>
                 </div>
                 <div class="theater">
                     <div class="stage">
-                        <p class="locations-title"> Locations </p>
+                        <p class="locations-title"> Markets & Vendors </p>
                         <!-- <button type="button" class="btn btn-primary button1">SHOP & RESERVE</button> -->
                     </div>
                 </div>
-        </div>s
-        <div class="background-grey">
-            <p class="h1"> Markets & Hours </p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 text-center">
-                        <img src=images/LocationBag.png alt="" class="locationbags"/>
-                        <p class="marketday"> Wednesdays </p>
-                        <p class="markettime"> 8:30 am - 1:30 pm </p>
-                        <p class="marketlocation"> 2nd St. @ Arizona Avenue </p>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <img src=images/LocationBag.png alt="" class="locationbags"/>
-                        <p class="marketday"> Saturdays </p>
-                        <p class="markettime"> 8:30 am - 1:00 pm </p>
-                        <p class="marketlocation"> 3rd St. @ Arizona Avenue </p>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <img src=images/LocationBag.png alt="" class="locationbags">
-                        <p class="marketday"> Saturdays </p>
-                        <p class="markettime"> 8:00 am - 1:00 pm </p>
-                        <p class="marketlocation"> Pico @ Cloverfield Blvd. </p>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <img src=images/LocationBag.png alt="" class="locationbags">
-                        <p class="marketday"> Sundays </p>
-                        <p class="markettime"> 9:30 am - 1:00 pm </p>
-                        <p class="marketlocation"> 2640 Main Street @ Ocean Park Blvd. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <div class="background-grey">
+                  <p class="h1"> Hours  |  Locations  |  Vendors </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 text-center">
+                                <img src=images/LocationBag.png alt="" class="locationbags">
+                                <p class="marketday"> Wednesdays </p>
+                                <p class="markettime"> 8:30 am - 1:30 pm </p>
+                                <p class="marketlocation"> 2nd St. @ Arizona Avenue </p>
+                                <!-- <form method="link" action="vendors.html" class="button2" input type="submit" value="VENDORS"></form> -->
+                                <button type="button" class="btn btn-primary button" href="vendors.html">VENDORS</button>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <img src=images/LocationBag.png alt="" class="locationbags">
+                                <p class="marketday"> Saturdays </p>
+                                <p class="markettime"> 8:30 am - 1:00 pm </p>
+                                <p class="marketlocation"> 3rd St. @ Arizona Avenue </p>
+                                <button type="button" class="btn btn-primary button" href="vendors.html">VENDORS</button>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <img src=images/LocationBag.png alt="" class="locationbags">
+                                <p class="marketday"> Saturdays </p>
+                                <p class="markettime"> 8:00 am - 1:00 pm </p>
+                                <p class="marketlocation"> Pico @ Cloverfield Blvd. </p>
+                                <button type="button" class="btn btn-primary button" href="vendors.html">VENDORS</button>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <img src=images/LocationBag.png alt="" class="locationbags">
+                                <p class="marketday"> Sundays </p>
+                                <p class="markettime"> 9:30 am - 1:00 pm </p>
+                                <p class="marketlocation"> 2640 Main Street @ Ocean Park Blvd. </p>
+                                <button type="button" class="btn btn-primary button" href="vendors.html">VENDORS</button>
+                            </div>
+                            </div>
+                        </div>
+                     </div>
+              </div>
         <div class="footer">
             <div class="row links">
                 <div class="social">
@@ -122,8 +147,8 @@
                     <a href="https://www.instagram.com/InfarmMe"><img src="images/Gram.1.png" alt="Instagram" class="social-network"/></a>
                     <a href="https://www.twitter.com/InfarmMe"><img src="images/Tweet.1.png" alt="Twitter" class="social-network"/></a>
                 </div>
-            </div>
         </div>
+            </div>
     <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
