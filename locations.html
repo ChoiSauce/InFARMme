@@ -16,7 +16,7 @@
         <div class="locationspage">
             <div class="tint"></div>
                 <nav class="navbar navbar-custom navbar-fixed-top" id="mobile-menu">
-                    <div class="container-fluid">
+                    <div class="container-fluid mobile-overlay">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                 <span class="sr-only">Toggle navigation</span>
@@ -44,12 +44,12 @@
                         <div class="modal-dialog">
                             <!-- Modal content-->
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <!-- <h4 class="modal-title">Login</h4> -->
+                                <div class="modal-header modal-close">
+                                    <button class="btn btn-default" data-dismiss="modal" aria-label="Close">X</button>
                                 </div>
                                  <div class="modal-body">
                                     <br><input type="text" placeholder="Username or Email" name="username" class="login" id="myBtn"><br>
-                                    <br><input type="text" placeholder="Password" name="password" class="login"><br>
+                                    <br><input type="password" placeholder="Password" name="password" class="login"><br>
                                  </div>
                                  <div class="modal-footer">
                                     <button type="button" class="btn btn-primary button button-on-white" data-dismiss="modal">LOGIN</button>
@@ -63,27 +63,19 @@
                         <div class="modal-dialog">
                         <!-- Modal content-->
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <!-- <h4 class="modal-title">Login</h4> -->
+                                <div class="modal-header modal-close">
+                                    <button class="btn btn-default" data-dismiss="modal" aria-label="Close">X</button>
                                 </div>
                                 <div class="modal-body">
                                     <br><input type="text" placeholder="Username" name="username" class="signup"><br>
                                     <br><input type="text" placeholder="Email" name="email" class="signup"><br>
-                                    <br><input type="text" placeholder="Password" name="password" class="signup"><br>
+                                    <br><input type="password" placeholder="Password" name="password" class="signup"><br>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-primary button button-on-white" data-dismiss="modal">SIGN UP</button>
                                 </div>
                             </div>
                         </div>
-                         <div class="modal-body">
-                            <br><input type="text" placeholder="Username" name="username" class="signup"><br>
-                            <br><input type="text" placeholder="Email" name="email" class="signup"><br>
-                            <br><input type="password" placeholder="Password" name="password" class="signup"><br>
-                         </div>
-                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary button button-on-white" data-dismiss="modal">SIGN UP</button>
-                         </div>
                     </div>
                 </div>
                 <div class="theater">
@@ -136,8 +128,8 @@
                     <a href="https://www.instagram.com/InfarmMe"><img src="images/Gram.1.png" alt="Instagram" class="social-network"/></a>
                     <a href="https://www.twitter.com/InfarmMe"><img src="images/Tweet.1.png" alt="Twitter" class="social-network"/></a>
                 </div>
-        </div>
             </div>
+        </div>
     <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
