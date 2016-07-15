@@ -49,6 +49,7 @@
 
 .contact-submit {
     font-family: Brandon;
+    margin-top: 10px;
 }
 .button:hover,
 .button:active,
@@ -108,12 +109,12 @@
     display: table-cell;
 }
 .background-blue {
-    background-color: #80CFFA;
+    background-color: #4bb88e;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 .contact {
-    font-size: 55px;
+    font-size: 45px;
     font-family: Brandon;
     font-weight: bold;
 }
@@ -281,6 +282,13 @@
     background-color: #FF5400;
     border: 1px solid #FF5400;
     outline-color: #FF5400;
+}
+.form-group {
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 320px;
+    margin-right: 320px;
+    padding-bottom: 18px;
 }
 @font-face {
     font-family: BigJohn;
