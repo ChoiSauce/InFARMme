@@ -1,5 +1,5 @@
-    .navbar-custom {
-    font-family: Brandon;
+.navbar-custom {
+font-family: Brandon;
 }
 .navbar-custom a {
     color: #fff;
@@ -257,7 +257,7 @@
 }
 .modal-title {
     font-family: Brandon;
-    font-size: 30px;
+    font-size: 60px;
 }
 .vendorspage {
     background-image: url("../images/Locations.png");
@@ -286,9 +286,10 @@
 .form-group {
     opacity: 0.5;
     background-color: rgba(0, 0, 0, 0.2);
-    margin-left: 320px;
-    margin-right: 320px;
+    margin-left: 380px;
+    margin-right: 380px;
     padding-bottom: 18px;
+    text-align: center;
 }
 @font-face {
     font-family: BigJohn;
