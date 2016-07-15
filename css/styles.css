@@ -1,4 +1,4 @@
-    .navbar-custom {
+.navbar-custom {
     font-family: Brandon;
 }
 .navbar-custom a {
@@ -219,7 +219,7 @@
 .background-grey {
     background-color: #0e0e0e;
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 25px;
     display: cover;
     width: 100%;
 }
@@ -276,7 +276,7 @@
     font-size: 150px;
     text-align: center;
     font-family: Brandon;
-    margin-top: 100px;
+    margin-top: 5px;
     /*font-weight: bold;*/
 }
 .form {
@@ -302,6 +302,18 @@
     background-color: #FF5400;
     border: 1px solid #FF5400;
     outline-color: #FF5400;
+}
+.header {
+    color: #fff;
+    font-size: 40px;
+    font-family: Brandon;
+    text-align: left;
+}
+.info {
+    color: #fff;
+    font-size: 20px;
+    font-family: Brandon;
+    text-align: left;
 }
 @font-face {
     font-family: BigJohn;

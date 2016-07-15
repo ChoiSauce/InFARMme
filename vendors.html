@@ -30,7 +30,6 @@
                     <li class="active"><a href="index.html">HOME</a></li>
                     <li><a href="locations.html">MARKET INFO</a></li>
                     <li><a href="#Recipes">RECIPES</a></li>
-                    <li><a href="#About Us">ABOUT US</a></li>
                     <li><a href="#Contact Us">CONTACT US</a></li>
                     <li><a href="#Login" data-toggle="modal" data-target="#Login">LOGIN</a></li>
                     <li class="button-align"><a href="#SignUp" data-toggle="modal" data-target="#SignUp"><button class="btn btn-primary button">SIGN UP</button></a></li>
@@ -39,30 +38,32 @@
               </div>
             </nav>
             <div id="Login" class="modal fade" role="dialog">
-              <div class="modal-backdrop fade in">
-                <div class="modal-dialog">
+                <div class="modal-backdrop fade in">
+                    <div class="modal-dialog">
                     <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <!-- <h4 class="modal-title">Login</h4> -->
+                        <div class="modal-content">
+                            <div class="modal-header modal-close">
+                                <button class="btn btn-default" data-dismiss="modal" aria-label="Close">X</button>
+                            </div>
+                            <div class="modal-body">
+                                <br><input type="text" placeholder="Username or Email" name="username" class="login"><br>
+                                <br><input type="password" placeholder="Password" name="password" class="login"><br>
+                                <br>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary button button-on-white" data-dismiss="modal">LOGIN</button>
+                            </div>
+                        </div>
                     </div>
-                     <div class="modal-body">
-                        <br><input type="text" placeholder="Username or Email" name="username" class="login"><br>
-                        <br><input type="password" placeholder="Password" name="password" class="login"><br>
-                     </div>
-                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary button button-on-white" data-dismiss="modal">LOGIN</button>
-                     </div>
                 </div>
-                </div>
-              </div>
             </div>
             <div id="SignUp" class="modal fade" role="dialog">
               <div class="modal-backdrop fade in">
                 <div class="modal-dialog">
                     <!-- Modal content-->
                 <div class="modal-content">
-                    <div class="modal-header">
+                    <div class="modal-header modal-close">
+                        <button class="btn btn-default" data-dismiss="modal" aria-label="Close">X</button>
                     </div>
                      <div class="modal-body">
                         <h4 class="modal-title"> Choose whichever applies.</h4>
@@ -71,7 +72,7 @@
                         <br><input type="text" placeholder="Username" name="username" class="signup"><br>
                         <br><input type="text" placeholder="Email" name="email" class="signup"><br>
                         <br><input type="password" placeholder="Password" name="password" class="signup"><br>
-                     </div>
+                    </div>
                      <div class="modal-footer">
                         <button type="button" class="btn btn-primary button button-on-white" data-dismiss="modal">SIGN UP</button>
                      </div>
@@ -83,7 +84,24 @@
                 <div class="stage">
                     <p class="vendors-title"> Vendors </p>
                 </div>
-            </div>        
+            </div>
+        </div>
+            <div class="background-blue">
+                <div class="container">
+                    <div class="row">
+                        <div class="header-center">
+                            <p class="header"> WEDNESDAY MARKET VENDORS</p>
+                            <p class="info"> 2nd St. @ Arizona Avenue | 8:30 am - 1:30 pm </p>
+                            <p class="header"> SATURDAY MARKET VENDORS</p>
+                            <p class="info"> 3rd St. @ Arizona Avenue | 8:30 am - 1:00 pm </p>
+                            <p class="header"> SATURDAY MARKET VENDORS</p>
+                            <p class="info"> Pico @ Cloverfield Blvd. | 8:00 am - 1:00 pm </p>
+                            <p class="header"> SUNDAY MARKET VENDORS</p>
+                            <p class="info"> 2640 Main Street @ Ocean Park Blvd | 9:30 am - 1:00 pm </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="footer">
                 <div class="row links">
                     <div class="social">
