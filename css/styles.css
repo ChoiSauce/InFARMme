@@ -200,7 +200,7 @@
   opacity: 0.75;
 }
 .locationspage {
-    background-image: url("../images/Locations.png");
+    background-image: url("../images/Locations.jpg");
     position: relative;
     height: 680px;
     background-size: cover;
@@ -263,7 +263,7 @@
     font-size: 30px;
 }
 .vendorspage {
-    background-image: url("../images/Locations.png");
+    background-image: url("../images/Locations.jpg");
     position: relative;
     height: 680px;
     background-size: cover;
