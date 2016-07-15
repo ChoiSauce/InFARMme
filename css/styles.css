@@ -313,7 +313,7 @@
     }
     .toasty {
         text-align: center;
-        padding-bottom: 25px;
+        margin-top: 25px;
     }
     .home-text {
         font-size: 80px;
