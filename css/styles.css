@@ -1,5 +1,5 @@
-.navbar-custom {
-font-family: Brandon;
+    .navbar-custom {
+    font-family: Brandon;
 }
 .navbar-custom a {
     color: #fff;
@@ -49,7 +49,6 @@ font-family: Brandon;
 
 .contact-submit {
     font-family: Brandon;
-    margin-top: 10px;
 }
 .button:hover,
 .button:active,
@@ -114,7 +113,7 @@ font-family: Brandon;
     padding-bottom: 50px;
 }
 .contact {
-    font-size: 45px;
+    font-size: 55px;
     font-family: Brandon;
     font-weight: bold;
 }
@@ -122,7 +121,7 @@ font-family: Brandon;
     text-align: center;
 }
 .comments {
-    width: 274px;
+    width: 100%;
     font-family: Brandon;
     font-size: 25px;
 }
@@ -236,6 +235,10 @@ font-family: Brandon;
     height: 115px;
     width: 115px;
 }
+.toasty {
+    text-align: center;
+    padding-top: 18px;
+}
 .marketday {
     font-family: Brandon;
     font-size: 30px;
@@ -257,7 +260,7 @@ font-family: Brandon;
 }
 .modal-title {
     font-family: Brandon;
-    font-size: 60px;
+    font-size: 30px;
 }
 .vendorspage {
     background-image: url("../images/Locations.png");
@@ -276,20 +279,29 @@ font-family: Brandon;
     margin-top: 100px;
     /*font-weight: bold;*/
 }
+.form {
+    text-align: center;
+}
+.input-field-centering {
+    text-align: center;
+}
+.form-group {
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 .button2:active,
 .button2:hover,
 .button2:focus {
     background-color: #FF5400;
     border: 1px solid #FF5400;
     outline-color: #FF5400;
-}
-.form-group {
-    opacity: 0.5;
-    background-color: rgba(0, 0, 0, 0.2);
-    margin-left: 380px;
-    margin-right: 380px;
-    padding-bottom: 18px;
-    text-align: center;
 }
 @font-face {
     font-family: BigJohn;
@@ -307,7 +319,7 @@ font-family: Brandon;
     font-family: Brandon;
     src: url(../fonts/Brandon.ttf);
 }
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
     .navbar-custom a{
         color: #fff;
     }
@@ -316,13 +328,6 @@ font-family: Brandon;
     }
     .contact {
         text-align: center;
-    }
-    .form-group {
-        text-align: center;
-    }
-    .toasty {
-        text-align: center;
-        margin-top: 25px;
     }
     .home-text {
         font-size: 80px;
@@ -338,5 +343,10 @@ font-family: Brandon;
     }
     .h1 {
         font-size: 50px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .form-group {
+        width: 440px;
     }
 }
