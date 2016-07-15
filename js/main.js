@@ -28,5 +28,4 @@ $(document).scroll(function() {
     }
     // $logo.css({display: $(this).scrollTop()>10 ? "block":"none"});
 });
-
 $("#myBtn").modal("hide");

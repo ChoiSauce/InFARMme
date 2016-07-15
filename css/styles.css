@@ -303,7 +303,6 @@
     border: 1px solid #FF5400;
     outline-color: #FF5400;
 }
-<<<<<<< Updated upstream
 .header {
     color: #fff;
     font-size: 40px;
@@ -315,7 +314,7 @@
     font-size: 20px;
     font-family: Brandon;
     text-align: left;
-=======
+}
 .about-us {
     background-color: #fff;
     padding-top: 60px;
@@ -336,7 +335,6 @@
     font-family: Brandon;
     padding: 0;
     margin-bottom: 0;
->>>>>>> Stashed changes
 }
 @font-face {
     font-family: BigJohn;
