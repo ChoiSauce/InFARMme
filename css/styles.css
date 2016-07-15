@@ -303,6 +303,7 @@
     border: 1px solid #FF5400;
     outline-color: #FF5400;
 }
+<<<<<<< Updated upstream
 .header {
     color: #fff;
     font-size: 40px;
@@ -314,6 +315,28 @@
     font-size: 20px;
     font-family: Brandon;
     text-align: left;
+=======
+.about-us {
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about-header {
+    font-weight: bold;
+    font-size: 55px;
+    font-family: Brandon;
+    padding-bottom: 25px;
+}
+.people-pictures {
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+.staff-text {
+    font-size: 26px;
+    font-family: Brandon;
+    padding: 0;
+    margin-bottom: 0;
+>>>>>>> Stashed changes
 }
 @font-face {
     font-family: BigJohn;
