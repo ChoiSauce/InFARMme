@@ -34,7 +34,7 @@
 .button1 {
     background-color: #FF5400;
     border-color: #FF5400;
-    font-size: 30px;
+    font-size: 22px;
     margin-top: 30px;
     font-family: Brandon;
 }
@@ -60,6 +60,7 @@
 .home-screen {
     background-image: url("../images/Market.jpg");
     position: relative;
+    background-attachment: fixed;
     height: 670px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,6 +112,7 @@
     background-color: #4bb88e;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-attachment: fixed;
 }
 .contact {
     font-size: 55px;
@@ -202,6 +204,7 @@
 .locationspage {
     background-image: url("../images/Locations.jpg");
     position: relative;
+    background-attachment: fixed;
     height: 680px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -265,6 +268,7 @@
 .vendorspage {
     background-image: url("../images/Locations.jpg");
     position: relative;
+    background-attachment: fixed;
     height: 680px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -325,6 +329,7 @@
     font-size: 55px;
     font-family: Brandon;
     padding-bottom: 25px;
+    background-attachment: fixed;
 }
 .people-pictures {
     border-radius: 50%;
