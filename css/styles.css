@@ -265,24 +265,18 @@
 }
 .markettime {
     font-family: Brandon;
-<<<<<<< Updated upstream
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
-=======
     font-size: 30px;
     color: #3d3d3d;
->>>>>>> Stashed changes
     padding-top: 1px;
 }
 .marketlocation {
     font-family: Brandon;
-<<<<<<< Updated upstream
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
-=======
     font-size: 30px;
     color: #3d3d3d;
->>>>>>> Stashed changes
     /*padding-top: 1px;*/
 }
 .vendor-button {
