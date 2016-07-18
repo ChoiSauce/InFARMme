@@ -224,7 +224,7 @@
     /*font-weight: bold;*/
 }
 .background-grey {
-    background-color: #fff;
+    background-color: #4bb88e;
     padding-top: 120px;
     padding-bottom: 95px;
     display: cover;
@@ -232,7 +232,7 @@
 }
 .h1 {
     font-size: 60px;
-    color: #3d3d3d;
+    color: #fff;
     margin-top: 1px;
     margin-bottom: 80px;
     text-align: center;
@@ -242,15 +242,15 @@
     padding-left: 50px;
     padding-right: 50px;
     font-size: 60px;
-    color: #3d3d3d;
+    color: #fff;
     margin-top: 1px;
     margin-bottom: 80px;
     text-align: center;
     font-family: Brandon;
 }
 .locationbags {
-    height: 115px;
-    width: 115px;
+    height: 140px;
+    width: 140px;
 }
 .toasty {
     text-align: center;
@@ -258,29 +258,27 @@
 }
 .marketday {
     font-family: Brandon;
-    font-size: 30px;
-    color: #3d3d3d;
+    font-size: 25px;
+    color: #fff;
     padding-top: 15px;
     font-weight: bold;
 }
 .markettime {
     font-family: Brandon;
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     font-size: 30px;
-    color: #3d3d3d;
     padding-top: 1px;
 }
 .marketlocation {
     font-family: Brandon;
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     font-size: 30px;
-    color: #3d3d3d;
     /*padding-top: 1px;*/
 }
 .vendor-button {
-    color: #3d3d3d;
+    color: #fff;
     font-weight: 600;
 }
 .modal-title {
