@@ -7,7 +7,7 @@ $(document).ready(function(){
             if(this.bodyIsOverflowing && this.scrollbarWidth)
             {
                 $('.navbar-fixed-top, .navbar-fixed-bottom').css('padding-right', this.scrollbarWidth);
-            }
+                }
         }
 
         var oldRSB = $.fn.modal.Constructor.prototype.resetScrollbar;
