@@ -226,7 +226,7 @@
 .background-grey {
     background-color: #fff;
     padding-top: 120px;
-    padding-bottom: 95px;
+    padding-bottom: 35px;
     display: cover;
     width: 100%;
 }
@@ -436,6 +436,10 @@ body.modal-open .supreme-container {
 .time-location:focus,
 .time-location:hover {
     text-decoration: underline;
+}
+.button3 {
+    text-align: center;
+    padding-bottom: 10px;
 }
 @font-face {
     font-family: BigJohn;
