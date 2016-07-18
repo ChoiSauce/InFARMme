@@ -351,6 +351,37 @@ body.modal-open .supreme-container {
     -ms-filter: blur(1px);
     filter: blur(1px);
 }
+.panel-default {
+    background-color: #4bb88e;
+}
+.panel-heading {
+    padding: 40px;
+}
+.panel-default>.panel-heading {
+    background-color: #4bb88e;
+}
+.panel-title {
+    font-size: 20px;
+    color: #fff;
+}
+.panel-body {
+    font-size: 18px;
+    font-family: Brandon;
+}
+.time-location {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Brandon;
+    color: #fff;
+}
+.panel-title a:focus,
+.panel-title a:hover {
+    text-decoration: none;
+}
+.time-location:focus,
+.time-location:hover {
+    text-decoration: underline;
+}
 @font-face {
     font-family: BigJohn;
     src: url(../fonts/BigJohn.ttf);
