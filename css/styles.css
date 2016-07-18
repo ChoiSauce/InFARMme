@@ -78,6 +78,9 @@
 .modal-close {
     text-align: right;
 }
+.market-image {
+    padding-top: 20px;
+}
 .home-text {
     color: #fff;
     font-size: 150px;
@@ -221,7 +224,7 @@
     /*font-weight: bold;*/
 }
 .background-grey {
-    background-color: #0e0e0e;
+    background-color: #fff;
     padding-top: 120px;
     padding-bottom: 95px;
     display: cover;
@@ -229,7 +232,17 @@
 }
 .h1 {
     font-size: 60px;
-    color: #fff;
+    color: #3d3d3d;
+    margin-top: 1px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: Brandon;
+}
+.h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 60px;
+    color: #3d3d3d;
     margin-top: 1px;
     margin-bottom: 80px;
     text-align: center;
@@ -246,21 +259,35 @@
 .marketday {
     font-family: Brandon;
     font-size: 30px;
-    color: #fff;
+    color: #3d3d3d;
     padding-top: 15px;
     font-weight: bold;
 }
 .markettime {
     font-family: Brandon;
+<<<<<<< Updated upstream
     font-size: 25px;
     color: #fff;
+=======
+    font-size: 30px;
+    color: #3d3d3d;
+>>>>>>> Stashed changes
     padding-top: 1px;
 }
 .marketlocation {
     font-family: Brandon;
+<<<<<<< Updated upstream
     font-size: 25px;
     color: #fff;
+=======
+    font-size: 30px;
+    color: #3d3d3d;
+>>>>>>> Stashed changes
     /*padding-top: 1px;*/
+}
+.vendor-button {
+    color: #3d3d3d;
+    font-weight: 600;
 }
 .modal-title {
     font-family: Brandon;
@@ -282,7 +309,6 @@
     text-align: center;
     font-family: Brandon;
     margin-top: 5px;
-    /*font-weight: bold;*/
 }
 .form {
     text-align: center;
@@ -433,6 +459,16 @@ body.modal-open .supreme-container {
     font-family: Brandon;
     src: url(../fonts/Brandon.ttf);
 }
+@media only screen and (max-width:900px){
+    .h1 {
+        font-size: 55px;
+    }
+    .h2 {
+        font-size: 55px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 @media only screen and (max-width:768px){
     .navbar-custom a{
         color: #fff;
@@ -455,8 +491,16 @@ body.modal-open .supreme-container {
     .mobile-overlay {
         background-color: #3d3d3d;
     }
+    .vendors-title {
+        font-size: 110px;
+    }
     .h1 {
-        font-size: 50px;
+        font-size: 40px;
+    }
+    .h2 {
+        font-size: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media only screen and (min-width: 768px){
