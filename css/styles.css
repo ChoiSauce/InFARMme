@@ -252,13 +252,13 @@
 }
 .markettime {
     font-family: Brandon;
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     padding-top: 1px;
 }
 .marketlocation {
     font-family: Brandon;
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     /*padding-top: 1px;*/
 }
@@ -313,12 +313,14 @@
     font-size: 40px;
     font-family: Brandon;
     text-align: left;
+    margin-top: -13px;
 }
 .info {
     color: #fff;
     font-size: 20px;
     font-family: Brandon;
     text-align: left;
+    margin-bottom: -13px;
 }
 .about-us {
     background-color: #fff;
@@ -343,6 +345,39 @@
     font-family: Brandon;
     padding: 0;
     margin-bottom: 0;
+}
+.background-mission {
+    background-color: #0e0e0e;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*opacity: 0.4;*/
+    /*background-color: transparent;*/
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: relative;
+}
+.mission {
+    font-size: 55px;
+    font-family: Brandon;
+    font-weight: bold;
+    color: #fff;
+    z-index: 1;
+}
+.missionp {
+    font-size: 25px;
+    font-family: Brandon;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+.tint1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.home-screen-sml {
+    height: 300px;
 }
 body.modal-open .supreme-container {
     -webkit-filter: blur(1px);
