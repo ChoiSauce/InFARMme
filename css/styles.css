@@ -334,7 +334,9 @@
 }
 .people-pictures {
     border-radius: 50%;
-    border: 1px solid #FF5400;
+    border: 6px solid #FF5400;
+    height: 200px;
+    width: 200px;
 }
 .staff-text {
     font-size: 26px;
@@ -394,5 +396,8 @@ body.modal-open .supreme-container {
 @media only screen and (min-width: 768px){
     .form-group {
         width: 440px;
+    }
+    .bottom-row {
+        padding-top: 15px;
     }
 }
