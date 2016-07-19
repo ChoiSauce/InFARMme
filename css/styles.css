@@ -286,7 +286,34 @@
     font-size: 30px;
 }
 .vendorspage {
-    background-image: url("../images/Locations.jpg");
+    background-image: url("../images/Vendors.jpg");
+    position: relative;
+    background-attachment: fixed;
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: cover;
+}
+.vendorspage1 {
+    position: relative;
+    background-attachment: fixed;
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: cover;
+}
+.vendorspage2 {
+    position: relative;
+    background-attachment: fixed;
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: cover;
+}
+.vendorspage3 {
     position: relative;
     background-attachment: fixed;
     height: 680px;
@@ -435,10 +462,10 @@ body.modal-open .supreme-container {
 .time-location:hover {
     text-decoration: underline;
 }
-.button3 {
+/*.button3 {
     text-align: center;
     padding-bottom: 10px;
-}
+}*/
 @font-face {
     font-family: BigJohn;
     src: url(../fonts/BigJohn.ttf);
@@ -497,6 +524,9 @@ body.modal-open .supreme-container {
         font-size: 40px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .home-screen-sml {
+        height: 400px;
     }
 }
 @media only screen and (min-width: 768px){
