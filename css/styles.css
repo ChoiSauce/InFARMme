@@ -306,7 +306,7 @@
     display: cover;
 }
 .vendorspage2 {
-    background-image: url("../images/Vendor2.jpg");
+    background-image: url("../images/Vendors2.jpg");
     position: relative;
     background-attachment: fixed;
     height: 680px;
@@ -474,6 +474,11 @@ body.modal-open .supreme-container {
 .time-location:focus,
 .time-location:hover {
     text-decoration: underline;
+}
+.markettitle {
+    color: #fff;
+    font-size: 30px;
+    font-family: Brandon;
 }
 /*.button3 {
     text-align: center;
