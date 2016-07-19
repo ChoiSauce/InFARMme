@@ -424,6 +424,16 @@
 .home-screen-sml {
     height: 300px;
 }
+.navbar-logo {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+.navbar-logo-1 {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
 body.modal-open .supreme-container {
     -webkit-filter: blur(1px);
     -moz-filter: blur(1px);
@@ -492,6 +502,9 @@ body.modal-open .supreme-container {
         padding-right: 10px;
     }
 }
+.btn-primary:active:focus {
+    background-color: #FF5400;
+}
 @media only screen and (max-width:768px){
     .navbar-custom a{
         color: #fff;
@@ -518,15 +531,18 @@ body.modal-open .supreme-container {
         font-size: 110px;
     }
     .h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .h2 {
-        font-size: 40px;
+        font-size: 35px;
         padding-left: 10px;
         padding-right: 10px;
     }
     .home-screen-sml {
         height: 400px;
+    }
+    .navbar-logo-1 {
+        opacity: 0;
     }
 }
 @media only screen and (min-width: 768px){
@@ -535,5 +551,8 @@ body.modal-open .supreme-container {
     }
     .bottom-row {
         padding-top: 15px;
+    }
+    .navbar-logo-1 {
+        opacity: 0;
     }
 }
