@@ -70,8 +70,8 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 0;
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     top: 0;
     data-dismiss: modal;
 }
@@ -296,6 +296,7 @@
     display: cover;
 }
 .vendorspage1 {
+    background-image: url("../images/Vendors1.jpg");
     position: relative;
     background-attachment: fixed;
     height: 680px;
