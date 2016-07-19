@@ -306,6 +306,7 @@
     display: cover;
 }
 .vendorspage2 {
+    background-image: url("../images/Vendor2.jpg");
     position: relative;
     background-attachment: fixed;
     height: 680px;
@@ -315,6 +316,7 @@
     display: cover;
 }
 .vendorspage3 {
+    background-image: url("../images/Vendor3.jpg");
     position: relative;
     background-attachment: fixed;
     height: 680px;
