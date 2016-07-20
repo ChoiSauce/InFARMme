@@ -286,26 +286,6 @@
     font-size: 30px;
 }
 .vendorspage {
-    background-image: url("../images/Vendors.jpg");
-    position: relative;
-    background-attachment: fixed;
-    height: 680px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: cover;
-}
-.vendorspage1 {
-    background-image: url("../images/Vendors1.jpg");
-    position: relative;
-    background-attachment: fixed;
-    height: 680px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: cover;
-}
-.vendorspage2 {
     background-image: url("../images/Vendors2.jpg");
     position: relative;
     background-attachment: fixed;
@@ -315,8 +295,28 @@
     background-position: center;
     display: cover;
 }
+.vendorspage1 {
+    background-image: url("../images/Vendors.jpg");
+    position: relative;
+    background-attachment: fixed;
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: cover;
+}
+.vendorspage2 {
+    background-image: url("../images/Vendor3.JPG");
+    position: relative;
+    background-attachment: fixed;
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: cover;
+}
 .vendorspage3 {
-    background-image: url("../images/Vendor3.jpg");
+    background-image: url("../images/Vendor2.JPG");
     position: relative;
     background-attachment: fixed;
     height: 680px;
