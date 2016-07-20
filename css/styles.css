@@ -536,8 +536,20 @@ body.modal-open .supreme-container {
     padding-top: 5px;
     padding-bottom: 3px;
 }
-.farm-name {
+.farmers {
     color: #fff;
+    font-family: Brandon;
+}
+.farm-name {
+    font-weight: bold;
+    font-size: 30px;
+}
+.farmer-produce {
+    font-size: 22px;
+    font-weight: bold;
+}
+.seasons {
+    font-size: 18px;
 }
 .recipespage {
     background-image: url("../images/Vendors1.jpg");
