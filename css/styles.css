@@ -480,10 +480,63 @@ body.modal-open .supreme-container {
     font-size: 30px;
     font-family: Brandon;
 }
-/*.button3 {
-    text-align: center;
-    padding-bottom: 10px;
-}*/
+.button3 {
+    background-color: #FF5400;
+    border-color: #FF5400;
+    font-size: 22px;
+    margin-top: 30px;
+    font-family: Brandon;
+    color: #fff;
+}
+
+.button3:hover,
+.button3:active,
+.button3:focus {
+    background-color: #e65c00;
+    outline-color:  #e65c00;
+    border: 1px solid #e65c00;
+    color: #fff;
+}
+.order-title {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Brandon;
+    color: #fff;
+}
+.order-info {
+    color: #fff;
+    font-size: 16px;
+    font-family: Brandon;
+}
+.reserve-farmer {
+    color: #fff;
+    font-family: Brandon;
+}
+.vendor-name {
+    font-size: 35px;
+    font-weight: bold;
+}
+.vendor-item {
+    font-size: 18px;
+}
+.price {
+    font-size: 18px;
+}
+.lamb {
+    font-size: 22px;
+    font-weight: 600;
+}
+.product-quantity {
+    width: 100px;
+}
+.order-input {
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.varied-lamb {
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
 @font-face {
     font-family: BigJohn;
     src: url(../fonts/BigJohn.ttf);
