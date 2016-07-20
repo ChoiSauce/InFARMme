@@ -114,7 +114,6 @@
     background-color: #4bb88e;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-attachment: fixed;
 }
 .contact {
     font-size: 55px;
@@ -483,7 +482,7 @@ body.modal-open .supreme-container {
     color: #fff;
 }
 .recipespage {
-    background-image: url("../images/Vendors1.jpg");
+    background-image: url("../images/Vendors.jpg");
     position: relative;
     background-attachment: fixed;
     height: 680px;
@@ -498,6 +497,26 @@ body.modal-open .supreme-container {
     font-size: 150px;
     text-align: center;
     margin-top: -450px;
+}
+.recipe {
+    color: #fff;
+    font-family: Brandon;
+    font-size: 37px;
+}
+.info {
+    color: #fff;
+    font-family: Brandon;
+    font-size: 20px;
+}
+.ingredients-title {
+    color: #fff;
+    font-family: Brandon;
+    font-size: 35px;
+}
+.ingredients {
+    color: #fff;
+    font-family: Brandon;
+    font-size: 20px;
 }
 /*.button3 {
     text-align: center;
