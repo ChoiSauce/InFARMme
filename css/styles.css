@@ -480,6 +480,10 @@ body.modal-open .supreme-container {
     font-size: 30px;
     font-family: Brandon;
 }
+.farm-name {
+    color: #fff;
+
+}
 /*.button3 {
     text-align: center;
     padding-bottom: 10px;
@@ -539,10 +543,10 @@ body.modal-open .supreme-container {
         font-size: 110px;
     }
     .h1 {
-        font-size: 35px;
+        font-size: 23px;
     }
     .h2 {
-        font-size: 35px;
+        font-size: 23px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -551,6 +555,9 @@ body.modal-open .supreme-container {
     }
     .navbar-logo-1 {
         opacity: 0;
+    }
+    .home-screen {
+        background-image: url("../images/Market1.png");
     }
 }
 @media only screen and (min-width: 768px){
