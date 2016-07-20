@@ -13,6 +13,80 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
+        <div class="recipespage">
+            <div class="tint"></div>
+                <nav class="navbar navbar-custom navbar-fixed-top" id="mobile-menu">
+                    <div class="container-fluid mobile-overlay">
+                        <div class="navbar-header">
+                            <img src="images/logo.png" alt="logo" class="navbar-logo navbar-left"/>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <img src="images/logo.png" alt="logo" class="navbar-logo-1 navbar-left"/>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="index.html">HOME</a></li>
+                                <li><a href="locations.html">MARKETS</a></li>
+                                <li><a href="recipes.html">RECIPES</a></li>
+                                <li><a href="#Login" data-toggle="modal" data-target="#Login">LOGIN</a></li>
+                                <li class="button-align"><a href="#SignUp" data-toggle="modal" data-target="#SignUp"><button class="btn btn-primary button">SIGN UP</button></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+        </div>
+                <div id="Login" class="modal fade" role="dialog">
+                    <div class="modal-backdrop fade in">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header modal-close">
+                                    <button class="btn btn-default" data-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                 <div class="modal-body">
+                                    <br><input type="text" placeholder="Username or Email" name="username" class="login" id="myBtn"><br>
+                                    <br><input type="password" placeholder="Password" name="password" class="login"><br>
+                                 </div>
+                                 <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary button button-on-white" data-dismiss="modal">LOGIN</button>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="SignUp" class="modal fade" role="dialog">
+                    <div class="modal-backdrop fade in">
+                        <div class="modal-dialog">
+                        <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header modal-close">
+                                    <button class="btn btn-default" data-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <div class="modal-body">
+                                    <h4 class="modal-title"> Choose whichever applies.</h4>
+                                    <input type="radio" name="" value="vendor"> Vendor<br>
+                                    <input type="radio" name="" value="customer"> Customer<br>
+                                    <br><input type="text" placeholder="Username" name="username" class="signup"><br>
+                                    <br><input type="text" placeholder="Email" name="email" class="signup"><br>
+                                    <br><input type="password" placeholder="Password" name="password" class="signup"><br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary button button-on-white" data-dismiss="modal">SIGN UP</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="theater">
+                    <div class="stage">
+                        <p class="recipes-title"> Recipes </p>
+                        <!-- <button type="button" class="btn btn-primary button1">SHOP & RESERVE</button> -->
+                    </div>
+                </div>
         <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
