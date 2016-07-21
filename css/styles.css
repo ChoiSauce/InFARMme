@@ -48,6 +48,13 @@
     font-family: Brandon;
     color: #fff;
 }
+.lana {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
 .o-button {
     float: left;
 }
@@ -302,6 +309,8 @@
 .vendor-button {
     color: #fff;
     margin-left: 20px;
+    font-size: 17px;
+    font-family: Brandon;
 }
 .modal-title {
     font-family: Brandon;
@@ -625,7 +634,7 @@ body.modal-open .supreme-container {
 .thankyou {
     color: #fff;
     font-family: Brandon;
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
 }
 .directions-title {
