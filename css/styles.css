@@ -694,6 +694,9 @@ body.modal-open .supreme-container {
     .home-screen {
         background-image: url("../images/Market1.png");
     }
+    .recipes-title {
+        font-size: 100px;
+    }
 
 }
 @media only screen and (min-width: 768px){
