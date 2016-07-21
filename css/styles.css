@@ -736,8 +736,14 @@ body.modal-open .supreme-container {
     }
     .salad {
         margin-top: 30px;
-        height: 300px;
-        width: 300px;
+        height: 280px;
+        width: 280px;
+    }
+    .ingredients {
+        font-size: 16px;
+    }
+    .directions {
+        font-size: 16px;
     }
 }
 @media only screen and (min-width: 768px){
