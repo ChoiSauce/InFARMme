@@ -44,7 +44,7 @@
 .order-button {
     background-color: transparent;
     border: 1px solid #8CD5ED;
-    font-size: 17px;
+    font-size: 15px;
     font-family: Brandon;
     color: #fff;
 }
@@ -309,7 +309,7 @@
 .vendor-button {
     color: #fff;
     margin-left: 20px;
-    font-size: 17px;
+    font-size: 15px;
     font-family: Brandon;
 }
 .modal-title {
