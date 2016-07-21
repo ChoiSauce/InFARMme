@@ -628,6 +628,16 @@ body.modal-open .supreme-container {
     font-size: 100px;
     text-align: center;
 }
+.directions-title {
+    color: #fff;
+    font-family: Brandon;
+    font-size: 35px;
+}
+.directions {
+    color: #fff;
+    font-family: Brandon;
+    font-size: 20px;
+}
 /*.button3 {
     text-align: center;
     padding-bottom: 10px;
