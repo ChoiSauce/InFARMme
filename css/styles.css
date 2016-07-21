@@ -150,7 +150,7 @@
 }
 .recipee {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 10px;
 }
 .info {
     font-size: 30px;
@@ -612,6 +612,16 @@ body.modal-open .supreme-container {
     font-family: Brandon;
     font-size: 20px;
 }
+.directions-title {
+    color: #fff;
+    font-family: Brandon;
+    font-size: 35px;
+}
+.directions {
+    color: #fff;
+    font-family: Brandon;
+    font-size: 20px;
+}
 .thankyou {
     color: #fff;
     font-family: Brandon;
@@ -712,10 +722,12 @@ body.modal-open .supreme-container {
         text-align: center;
     }
     .recipee {
-        margin-top: 80px;
+        margin-top: 40px;
     }
     .salad {
-        margin-top: 40px;
+        margin-top: 30px;
+        height: 350px;
+        width: 350px;
     }
 }
 @media only screen and (min-width: 768px){
