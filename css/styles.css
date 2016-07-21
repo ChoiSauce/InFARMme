@@ -740,10 +740,14 @@ body.modal-open .supreme-container {
         width: 280px;
     }
     .ingredients {
-        font-size: 16px;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .directions {
-        font-size: 16px;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media only screen and (min-width: 768px){
