@@ -38,7 +38,24 @@
     margin-top: 30px;
     font-family: Brandon;
 }
-
+.order-button {
+    background-color: transparent;
+    border: 1px solid #8CD5ED;
+    font-size: 17px;
+    font-family: Brandon;
+    color: #fff;
+}
+.o-button {
+    float: left;
+}
+.order-button:hover,
+.order-button:active,
+.order-button:focus {
+    background-color: #8CD5ED;
+    outline-color: #8CD5ED;
+    border: 1px solid #8CD5ED;
+    color: #fff;
+}
 .button1:hover,
 .button1:active,
 .button1:focus {
@@ -277,7 +294,6 @@
 }
 .vendor-button {
     color: #fff;
-    font-weight: 600;
 }
 .modal-title {
     font-family: Brandon;
@@ -624,6 +640,11 @@ body.modal-open .supreme-container {
         padding-left: 10px;
         padding-right: 10px;
     }
+}
+.btn-secondary:active:focus {
+    background-color: #8CD5ED;
+    border: 1px solid #8CD5ED;
+    color: #fff;
 }
 .btn-primary:active:focus {
     background-color: #FF5400;
