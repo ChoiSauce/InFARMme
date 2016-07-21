@@ -546,12 +546,12 @@ body.modal-open .supreme-container {
 }
 .product-quantity {
     width: 100px;
-}
-.order-input {
-    text-align: center;
     color: #000;
-    padding-top: 5px;
-    padding-bottom: 2px;
+    font-size: 14px;
+}
+.fields {
+    padding-left: 18px;
+    text-align: right;
 }
 .varied-lamb {
     padding-top: 5px;
