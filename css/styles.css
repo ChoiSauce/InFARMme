@@ -53,7 +53,7 @@
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 50px;
+    font-size:20px;
 }
 .o-button {
     float: left;
@@ -764,7 +764,7 @@ body.modal-open .supreme-container {
         padding-right: 10px;
     }
     .vendors-title {
-        font-size: 100px;
+        font-size: 70px;
     }
 }
 @media only screen and (min-width: 768px){
